@@ -7,7 +7,7 @@ const mount = (el) => {
   ReactDOM.render(<App />, el);
 };
 
-// If we are in just marketing development context and in isolation,
+// If we are in marketing development context and in isolation,
 // call mount immediately
 if (process.env.NODE_ENV === 'development') {
   const devRoot = document.querySelector('#_marketing-dev-root');
